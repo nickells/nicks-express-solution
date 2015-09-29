@@ -32,7 +32,7 @@ router.get('/:person', function(req,res){
 
 router.post('/:person',function(req,res){
 	//{ name: 'one of sarah\'s tasks' }
-	//user bodyParser in app.js
+	//use bodyParser in app.js
 
 
 	if(!(req.body.name || req.body.complete)){
