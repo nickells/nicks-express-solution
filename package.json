@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --watch test/**.js", 
+    "test": "mocha --watch test/**.js",
     "grade": "mocha --reporter spec --timeout 300 test/*.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.13.0",
+    "body-parser": "^1.14.1",
     "express": "^4.12.4"
   },
   "devDependencies": {
